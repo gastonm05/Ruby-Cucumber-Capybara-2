@@ -1,0 +1,18 @@
+######################################################################
+# This file contains all locators for streams
+######################################################################
+
+entry_content: 'div[class="entry-content"]'
+advanced: "a[data-target='#filter-advanced']"
+#note this is actually on the toolbar. TODO find a way to abstract into a seperate toolbar page.
+change_filter: "li.navbar-entry:first-of-type > a.navbar-link.primary > span"
+change_filter_mention: "a[data-target='#filter-mentions']"
+close_change_filter: "div.flex-row-container.top-spaced > div > a[data-vh-id='filters-trigger']"
+preview: "a[data-vh-id='filters-preview']"
+
+########################### Controls on the Mention sub-panel #######################################
+accounts_filter: 'a.select2-choice'
+entry_sources_list: 'li.entry.source'
+facebook: "li[data-platform='facebook']"
+filter_content: 'div.select2-container.filter'
+

@@ -1,0 +1,38 @@
+#Rubocop Config file
+
+Metrics/LineLength:
+  Max: 110
+
+Style/HashSyntax:
+  Severity: warning
+
+#RSpec/DescribeClass:
+#  Enabled: false
+
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+Style/NumericLiterals:
+  Enabled: false
+
+# Configuration parameters: Exclude.
+Style/FileName:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 20
+
+# This class is a monster, but it's too big a task to break it apart
+# TODO: cleanup later
+Metrics/ClassLength:
+  Exclude:
+#    - ''
+
+#Here you can add files you want to exclude from the code analise
+AllCops:
+  Include:
+#    - '**/Rakefile'
+#    - '**/config.ru'
+  Exclude:
+    - 'Gemfile'
+    - 'Gemfile.lock'

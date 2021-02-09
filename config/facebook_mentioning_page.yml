@@ -1,0 +1,12 @@
+######################################################################
+# CENTRAL CONFIGURATION FILE
+#
+# Facebook_mentioning page css selectors
+#
+######################################################################
+
+new_entries: 'div[data-vh-id="new-pages-grid"] > ul.entries > li.entry.source'
+old_entries: 'div[data-vh-id="existing-pages-grid"] > ul.entries > li.entry.source'
+search_already_added_input: 'input[data-vh-id="query"]'
+search_input: 'input[data-vh-id="new-pages-query"]'
+spinner_div: 'div[data-vh-id="loader"]'

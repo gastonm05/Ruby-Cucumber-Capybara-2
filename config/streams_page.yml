@@ -1,0 +1,101 @@
+######################################################################
+# This file contains all locators for streams
+######################################################################
+
+advanced: "a[data-target='#filter-advanced']"
+#note this is actually on the toolbar. TODO find a way to abstract into a seperate toolbar page.
+change_filter: "li.navbar-entry:first-of-type > a.navbar-link.primary > span"
+change_filter_mention: "a[data-target='#filter-mentions']"
+close_change_filter: "div.flex-row-container.top-spaced > div > a[data-vh-id='filters-trigger']"
+preview: 'a[class="btn btn-primary left-spaced"]'
+
+########################### Controls on the Mention sub-panel #######################################
+accounts_filter: 'a.select2-choice'
+entry_sources_list: 'li.entry.source'
+facebook: "li[data-platform='facebook']"
+filter_content: 'div.select2-container.filter'
+filter_options: 'li.select2-results-dept-0.select2-result.select2-result-selectable'
+invalid_entry_marker: 'i[data-vh-id="invalid-marker"]'
+pinterest: "li[data-platform='pinterest']"
+tag_filter_option: 'li[data-searchable-label="Tags"]'
+instagram: 'li[data-platform="instagram"] a[data-vh-id="platform-trigger"]'
+twitter: 'li[data-platform="twitter"] a[data-vh-id="platform-trigger"]'
+google_plus: 'li[data-platform="google_plus"] a[data-vh-id="platform-trigger"]'
+twitter_account_start: "li[data-searchable-label='"
+twitter_account_end: "']"
+untracked_entry_marker: 'i[data-vh-id="untracked-marker"]'
+save_button_filter: 'a[data-vh-id="save"]'
+filter_name: 'input[data-vh-id="value"]'
+done_button: 'a[data-vh-id="filters-trigger"]'
+#i.fa.fa-exclamation-triangle.fa-color-red
+
+########################### Controls on the Advanced sub-panel #######################################
+date_custom_from: "div.daterangepicker_start_input input.input-mini"
+date_custom_to: "div.daterangepicker_start_input input.input-mini"
+date_filter: "li[data-searchable-label='Date']"
+date_from: "h6.secondary strong:nth-child(1)"
+date_options: "a[data-vh-id='settings']"
+date_option_custom: "div.ranges > ul > li:nth-child(5)"
+date_option_last_seven: "div.ranges > ul > li:nth-child(3)"
+date_option_last_thirty: "div.ranges > ul > li:nth-child(4)"
+date_option_today: "div.ranges > ul > li:nth-child(1)"
+date_option_yesterday: "div.ranges>ul>li:nth-child(2)"
+date_to: "h6.secondary strong:nth-child(2)"
+leads: "li[data-searchable-label='Leads']"
+mentions_account_start: "li[data-searchable-label='"
+mentions_account_end: "']"
+negative: "li[data-searchable-label='Negative']"
+neutral: "li[data-searchable-label='Neutral']"
+options: "a[data-target='#filter-advanced-options']"
+positive: "li[data-searchable-label='Positive']"
+timelines: "li[data-searchable-label='Timelines']"
+twitter_mentions: "a[data-target='#filter-advanced-mentions']"
+sentiment_and_intent: "a[data-target='#filter-advanced-sentiments']"
+
+########################## Controls for the results grid
+#used to acquire a array of the results currently in the DOM. best used with secondary finds in tests
+assign_to: 'ul.dropdown-menu.on-right.with-arrow.stream.fade.bottom.in > li > a[data-action-handler="assign-task"]'
+change_tags: 'a[data-action-handler="change-tags"]'
+description_field: 'textarea[data-vh-id="description"]'
+entry_time_link: 'a.link.muted.header-entry'
+entry_content_body: 'span[data-vh-id="truncatable"]'
+entries_list: "div.entry"
+loading: "div.entries-list>div.status-message.big"
+mark_negative: "a[data-sentiment='negative']"
+mark_neutral: "a[data-sentiment='neutral']"
+mark_positive: "a[data-sentiment='positive']"
+notification_div: 'div.notification-message.alert.alert-success.alert-dismissable.growl-animated.notification-add'
+notification_icon: 'span.header-entry > a.header-entry'
+result_date: "span[data-vh-id='relative-date']"
+result_lead: "span[data-vh-id='leads-indicator']"
+result_more: "div.actions > span.menu-container > a"
+result_negative: "span.sentiment.with-icon.negative"
+result_neutral: "span.sentiment.with-icon.neutral"
+result_positive: "span.sentiment.with-icon.positive"
+#for use in acquiring an array
+sources_list: "div.content-informations>span.metadata"
+summary: "h5[data-vh-id='summary-message']"
+summary_from: "h5[data-vh-id='summary-message'] > strong:nth-child(2)"
+summary_to: "h5[data-vh-id='summary-message'] > strong:nth-child(3)"
+#tag_link_on_stream: 'a.link.with-icon.tag'
+tag_link_on_stream: 'a.tag'
+
+########################## Controls for the change tags modal
+change_tags_button: 'a.btn.btn-lg.btn-success'
+delete_tag_link: 'a.select2-search-choice-close'
+tag_items: 'li.select2-search-choice'
+tag_choices: 'ul.select2-choices'
+tag_input_field: 'input.select2-input.select2-default'
+tag_input_field2: 'li.select2-search-field'
+tag_input_field_with_content: 'input.select2-input'
+tag_selected: 'li.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted'
+user_input_field: 'input.select2-input'
+user_selected: 'li.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted'
+
+############################# add and edit tag
+edit_tag: 'a[data-action-handler="change-tags"]'
+edit_tag_class: '.inline-block left-spaced-2'
+tag: 'a[class="tag"]'
+entries: 'div[class="entry detached"]'
+tag_to_verify: 'a[data-original-title="'
+tag_filter_field: 'input[id="s2id_autogen4"]'

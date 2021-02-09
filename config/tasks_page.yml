@@ -1,0 +1,18 @@
+######################################################################
+# This file contains all locators for Tasks
+######################################################################
+
+change_tags: 'a[data-action-handler="change-tags"]'
+change_tags_button: 'a.btn.btn-lg.btn-success'
+description_field: 'textarea[data-vh-id="description"]'
+due_date_field: 'input[data-vh-id="deadline"]'
+entries_list: "div.entry"
+eye_button: 'a.entry-action.btn.btn-tertiary'
+result_more: "span.actions > span.menu-container > a"
+stream_post: = 'div.box.alert.alert-post'
+tag_input_field: 'input.select2-input.select2-default'
+tag_link_on_stream: 'a.link.with-icon.tag'
+tag_on_task_post: 'a.link.with-icon.tag'
+tag_selected: 'li.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted'
+tags_field_on_task: 'div.select2-container.select2-container-multi'
+tasks_list: 'div[data-vh-id="task"]'

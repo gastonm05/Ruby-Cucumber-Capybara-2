@@ -1,0 +1,87 @@
+######################################################################
+# CENTRAL CONFIGURATION FILE
+#
+# publishing modal information
+#
+######################################################################
+
+#custom_shorten_set: '#main-root > article > div > div.entries-list > div:nth-child(3) > div:nth-child(4) a:nth-child(3)'
+account: 'div[data-panel-id="accounts"] li[data-searchable-label="###"]'
+accounts_dropdown: 'div[data-vh-id="accounts-list-container"]'
+accounts_dropdown_search: 'div.selectable-header > div.input-with-search > input#query'
+approval_chain_dropdown: 'div[data-vh-id="panel"] div[class="panel-body"] div[class="select2-container full-width action-modal"] a'
+attach_file: 'div.attach-box > div.flex-row-container > a.btn.btn-secondary'
+attach_image_url: 'div.panel.image.full.flex-container.padded > div.panel-actions.flex-row-container.flex-align-items-center > a.btn.btn-secondary'
+bulk_upload: 'Bulk upload'
+campaign_tracking: "li[data-vh-id='campaign'] a"
+campaign_tracking_dropdown: "div[data-panel-id='campaign'] .select2-container .select2-choice"
+campaign_tracking_name: '.select2-drop-active .select2-result'
+change_filter: 'a[data-vh-id="filters-trigger"]'
+close_accounts_dropdown: "div[data-panel-id='accounts'] a[data-vh-id='close-panel']"
+complete_post_preview: "div[data-panel-id='link'] a.btn[data-vh-id='close-panel']"
+complete_publishing: ".footer a[data-action='save']"
+continue: "a[class='btn btn-lg btn-primary']"
+custom_shorten_service: 'h4[data-vh-id="custom-domain-input"]'
+custom_shorten_set: 'div[data-service-name="http://###"] a[data-vh-id="publishing-option-default"]'
+do_shorten_link: "a[data-vh-id='shorten']"
+done_image_attach: 'div.panel.image.full.flex-container.padded > div.panel-actions.flex-row-container.flex-align-items-center > a.btn.btn-primary'
+done_schedule: 'a[data-action="save"]'
+done_schedule_time_selection: 'a[data-vh-id="close-panel"]'
+done_shorten_link: "div[data-panel-id='shortener'] .panel-actions  a[data-vh-id='close-panel']"
+draft: "a[data-action='save-draft']"
+edit_draft: 'div[data-message-id="###"] a[data-vh-id="edit-message"]'
+facebook_mention_options: 'un.completions'
+filter_account_name: 'li[data-searchable-label="###"]'
+filter_account_type: 'a[data-vh-id="platform-trigger"] > i[class="fa fa-###"]'
+filter_preview: 'a[data-vh-id="filters-preview"]'
+footer_button: 'div[class="modal-footer"] a'
+group_name_input: "div[class='modal-message'] input[data-vh-id='value']"
+image_attached: 'a[class="image"]'
+image_exist: 'li[data-entry-id="image"]'
+input_image_url: 'input[data-vh-id="attach-url"]'
+message: 'div[data-vh-id="message-area"]'
+message_area: 'div[data-vh-id="message"]'
+message_div: 'div[data-vh-id="message-area"]'
+message_id: 'div[data-message-id]'
+next_day: 'h2.title > a:nth-of-type(2) > i.fa.fa-chevron-right'
+preview_link: "li[data-vh-id='link'] a"
+publish_button: "header[id='top-header'] .publish-button"
+publish_message: 'Publish a message'
+remove_draft_message: 'div[data-message-id="###"] a[data-vh-id="remove-message"]'
+remove_image: "span.btn.btn-secondary"
+save_as_group: "a[data-vh-id='save-accounts-group']"
+schedule_active_day: 'table[class=" table-condensed"] tbody tr td[class="today active day"]'
+schedule_date: 'table[class=" table-condensed"] tbody tr td[class="day"]'
+schedule_next_month: 'table[class=" table-condensed"] thead tr th[class="next"]'
+schedule_message: 'li[data-entry-id="schedule"]'
+scehdule_account_counter: 'li[data-entry-id="accounts"]'
+select_accountfilter_drop: "div[id='s2id_autogen1'] a[class='select2-choice']"
+select_approval_chain_link: "li[data-vh-id='chain'] a"
+select_group1: "div[data-searchable-label='Group1']"
+select_group_accounts: "ul[id='select2-search'] div[role='option'] 'Accounts Group'"
+select_shorten_link: "li[data-vh-id='shortener'] a"
+start_schedule: 'li[data-vh-id="schedule"] a'
+status_icon: 'div.status > i'
+target_done: "div[class='panel-actions'] a[data-vh-id='close-panel']"
+target_country: 'input[id="s2id_autogen9"]'
+target_highlighted_country: 'li[class="select2-results-dept-0 select2-result select2-result-selectable select2-highlighted"]'
+today_messages: 'div.period.today > div.message'
+upload_a_image: 'a[data-vh-id="upload-image"] input'
+upload_image: 'a[data-original-title="Upload image"]'
+wordpress_blog_title: 'textarea[data-vh-id="title"]'
+board_name: 'div.select2-container.full-width > a.select2-choice.select2-default'
+board_name_link: 'div.select2-container.full-width > a.select2-choice.select2-default'
+board_name_input: 'div.select2-drop.select2-display-none.select2-with-searchbox.select2-drop-active > div.select2-search > input.select2-input'
+board_name_result: 'ul.select2-results > li.select2-results-dept-0.select2-result.select2-result-selectable.select2-highlighted > div.select2-result-label > span.result-name'
+board_description: 'textarea[data-vh-id="board_description"]'
+accounts_search_box: 'h5[data-vh-id="empty-marker"]'
+pinterest_logIn_button3: 'button[href="/login/"]'
+board: 'div[class="Module User boardRepTitle hasText thumb"]'
+pinterest_page: 'div[class="GridItems Module centeredWithinWrapper fixedHeightLayout padItems"]'
+pinterest_logIn_button2: 'button[class="Button Module btn hasText medium primary large continueButton rounded"]'
+pinterest_delete_button: 'a[data-vh-id="delete"]'
+pinterest_delete_checkbox: 'div.entry-source > input[data-vh-id="platform-delete"]'
+delete_button: 'button[class="Button Module btn deleteBoardButton hasText rounded"]'
+delete_button_sure: 'button[class="Button Module btn confirm hasText primary rounded"]'
+summary: 'div[class="summary"]'
+pinterest_summary: 'li[data-entry-id="pinterest-board"]'

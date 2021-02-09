@@ -1,0 +1,60 @@
+######################################################################
+#
+# Facebook targeting data used for publishing
+#
+######################################################################
+
+
+Set1:
+  Countries: 'United States'
+  languages: 'English (All)'
+
+Set2:
+ countries: 'Australia'
+ By States/Provinces:
+ states/provinces: 'Victoria'
+ Languages: 'Spanish'
+ Age & Gender:
+ Age:
+  min: '13'
+  max: '30'
+ Gender: 'Men'
+ RelationshipStatus: 'Engaged'
+ Education: 'In college'
+
+mention1: '@abc'
+mention2: '@yah'
+mention3: '@tes'
+
+# These set are used for image upload
+image1: 'book1.jpg'
+image2: 'gif1.gif'
+image_set1:
+  - 'book1.jpg'
+  - 'dolph1.jpeg'
+  - 'homepage.png'
+  - 'gif1.gif'
+  - 'classic1.jpg'
+
+Image_Set2:
+    - 'https://utest-dl.s3.amazonaws.com/4777/3560/77261/null/bugAttachment/Bug1594208_spill_over.png?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1475605030&Signature=qUdXmf3kUDC8gLf8S0GBxua4U98%3D'
+    - 'https://utest-dl.s3.amazonaws.com/4777/3560/77261/null/bugAttachment/Bug1594252_change_image_FF.png?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1475605056&Signature=G7abLZpzo93UcPq8%2BKrJG6zO%2BI8%3D'
+    - 'https://utest-dl.s3.amazonaws.com/4777/3560/77261/null/bugAttachment/Bug1594252_change_image_IE.png?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1475605056&Signature=wb3ywDyy0ZNmoEG450WNMJicuAQ%3D'
+    - 'https://utest-dl.s3.amazonaws.com/4777/3560/77261/null/bugAttachment/Bug1594252_change_image_chrome.png?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1475605056&Signature=8dQzmfEBwpbQsdpyv6mzRpmgcoE%3D'
+
+image3: 'screen1.png'
+Image_Set3:
+    - 'screen1.png'
+    - 'nat2.jpeg'
+    - 'https://utest-dl.s3.amazonaws.com/4777/3560/61159/null/bugAttachment/Bug1323811_existui_due_on.png?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1477414968&Signature=tPPb9WV3eypx0hLu8LUGKMWyMvQ%3D'
+    - 'https://utest-dl.s3.amazonaws.com/4777/3560/61159/null/bugAttachment/Bug1323836_existingui_task.png?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1477414999&Signature=CUHr%2FS%2BELApSEemz%2FAzJrrZqmC8%3D'
+    - 'gif2.gif'
+
+Image_Set4:
+    - 'screen2.png'
+    - 'pup2.jpeg'
+    - 'https://utest-dl.s3.amazonaws.com/4777/3560/61159/null/bugAttachment/Bug1323836_newui_task.png?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1477414999&Signature=BLwhgtCCf1dtP8GkZmLP1%2F7Vvqo%3D'
+    - 'gif1.gif'
+
+Image4: 'https://utest-dl.s3.amazonaws.com/4777/3560/78509/null/bugAttachment/Bug1613164_wpstream.png?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1475605264&Signature=csh3KTIs2Ey9SMYK7yCaH6I1Zy4%3D'
+Image5: 'https://utest-dl.s3.amazonaws.com/4777/3560/78509/null/bugAttachment/Bug1613260_like_wp.png?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1475605314&Signature=ORFkdyFs%2FG3X5ZK59nn1Rn6Entc%3D'

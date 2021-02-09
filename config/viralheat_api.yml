@@ -1,0 +1,68 @@
+######################################################################
+# API list
+#
+# List all APIs currently being tested in automation,
+#
+# Note:
+#   api_name:
+#     api_call: 'API'
+#     response_keys: 'key1, key2'   #keys expecting from json response
+#
+######################################################################
+
+#######################
+# Sentiment related
+#
+#######################
+sentiment:
+  api: 'https://staging3.viralheat.com/social/api/sentiment?api_key=vishal&text=really'
+  response_keys: 'mood, prob'
+
+sentiment_train:
+  api: 'https://staging3.viralheat.com/social/api/sentiment/train?api_key=vishal&text=really&mood=1'
+  response_keys: ''
+
+social_intent:
+  api: 'https://staging3.viralheat.com/social/api/intent?api_key=vishal&text=hey'
+  response_keys: ''
+
+#######################
+# Profile related
+#
+#######################
+monitoring_profile:
+  api: 'https://staging3.viralheat.com/social/api/v2/monitoring/profiles?api_key=vishal'
+  response_keys: ''
+
+
+#######################
+# Monitoring Twitter
+#
+#######################
+monitoring_twitter_stats:
+  api: 'https://staging3.viralheat.com/social/api/monitoring/twitter/stats?api_key=qw5rSS7bTirMDQIyYcwb&profile_id=53560'
+  response_keys: 'stats/total_tweets, stats/total_leads'
+
+monitoring_twitter_trend:
+  api: 'https://staging3.viralheat.com/social/api/monitoring/twitter/trend?api_key=qw5rSS7bTirMDQIyYcwb&profile_id=53560'
+  response_keys: ''
+
+monitoring_twitter_influencers:
+  api: 'https://staging3.viralheat.com/social/api/monitoring/twitter/influencers?api_key=qw5rSS7bTirMDQIyYcwb&profile_id=53560'
+  response_keys: ''
+
+#######################
+# Monitoring Facebook
+#
+#######################
+monitoring_facebook_stats:
+  api: 'https://staging3.viralheat.com/social/api/monitoring/facebook/stats?api_key=qw5rSS7bTirMDQIyYcwb&profile_id=53560'
+  response_keys: 'stats/total_posts, stats/total_fans'
+
+monitoring_facebook_trend:
+  api: 'https://staging3.viralheat.com/social/api/monitoring/facebook/trend?api_key=qw5rSS7bTirMDQIyYcwb&profile_id=53560'
+  response_keys: ''
+
+monitoring_facebook_mentions:
+  api: 'https://staging3.viralheat.com/social/api/monitoring/facebook/mentions?api_key=qw5rSS7bTirMDQIyYcwb&profile_id=53560'
+  response_keys: ''

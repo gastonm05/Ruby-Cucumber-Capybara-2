@@ -1,0 +1,29 @@
+######################################################################
+#
+# source account information
+#
+######################################################################
+
+# publishing accounts
+#facebook_page: 'Xom'
+facebook_page: 'Analyze_page'
+facebook_page1: 'Analyze_comp'
+group_account: 'Group1'
+group_account1: 'Group2'
+group_account3: 'Group3'
+second_vhqa: 'Secondo Vhqa'
+twitter_account: 'vhqa1'
+twitter_account2: 'vhqa2'
+google_plus_page: 'Spicehut'
+g_plus_page: 'viralqa'
+linkedin_company_page: 'VH QA Page'
+tumblr_account: 'vhqa1-1'
+wordpress_blog: 'vhqawordpress1'
+twitter_account1: 'vhqa2'
+pinterest_account: 'viralheatqatest'
+dummy_value: 'asdasdasd'
+
+facebook account:
+  credential: 'vhmedia.viral@yahoo.com/nji98uhb'
+  facebook_account: 'Analyze Cool'
+  facebook_page: 'Analyze_page'

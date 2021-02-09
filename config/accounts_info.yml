@@ -1,0 +1,57 @@
+######################################################################
+# CENTRAL CONFIGURATION FILE
+#
+# account information
+#
+######################################################################
+
+admin:
+  admin_alias: 'vishal'
+  admin_name: 'Vishal Sankhla'
+  admin_pwd: 'qswsdf101'
+#user exclusive for full QA regression test suite
+autoqa:
+  email: 'autoqa@viralheat.com'
+  name: 'Auto QA'
+  pwd: 'qswsdf101'
+
+viralheattest:
+  email: 'viralheattest@gmail.com'
+  name: 'QA Viralheat'
+  pwd: 'nji98uhb'
+#user exclusive for sprint automation
+utest1:
+  email: 'utest1'
+  name: 'utest1'
+  pwd: 'utest098'
+
+utest2:
+  email: 'testerfb11@gmail.com'
+  name: 'utest2'
+  pwd: 'utest098'
+
+quality:
+  email: 'qualityan03@gmail.com'
+  name: 'Quality'
+  pwd: 'nji98uhb'
+
+Pinterest1:
+  email: 'qavht1@gmail.com'
+  name: 'Autoqa'
+  pwd: 'nji99uhb'
+
+Pinterest2:
+  email: 'viralheattest@gmail.com'
+  name: 'Viralheat'
+  pwd: 'nji98uhb'
+
+Pinterest3:
+  email: 'viralheatqatest1'
+  name: 'viralheat'
+  #lastname : qatest
+  pwd: 'qatest123'
+
+Google+:
+  email: 'testerfb11@gmail.com'
+  name: 'Spicehut'
+  pwd: 'nji98uhb'

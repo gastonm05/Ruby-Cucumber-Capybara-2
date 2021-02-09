@@ -1,0 +1,63 @@
+######################################################################
+# CENTRAL CONFIGURATION FILE
+#
+# Messages Page information
+#
+######################################################################
+
+all_messages: 'div.period > div.message'
+approve_message_link: "a[data-vh-id='approve-message']"
+approved_message_green_icon: 'i.fa.title-icon.fa-check-circle.fa-color-green'
+archives_date_picker: 'input[data-vh-id="date"]'
+box_div: 'div.box'
+close_paper_link: "a[data-vh-id='close']"
+close_reasons_modal: '[data-dismiss=modal].btn-primary'
+continue_button: "a[data-vh-id='with-callback']"
+day_calendar_link: 'a[data-duration="day"]'
+delete_message_link: "a[data-vh-id='remove-message']"
+edit_message_link: 'a[data-vh-id="edit-message"]'
+edit_tags_memo: '[data-vh-id=edit-tags-memo]'
+entries_list: 'div.entries-list'
+filter: 'a[data-vh-id="filters-trigger"]'
+filter_clear: 'a[data-vh-id="filters-clear"]'
+filter_done: 'a.btn.btn-primary[data-vh-id="filters-trigger"]'
+filter_entries: 'ul.entries > li.entry.source'
+filter_no_results_message: 'div[data-vh-id="empty"]'
+filter_search: 'a[data-vh-id="filters-update"]'
+filter_search_filed: 'input[data-vh-id="query"]'
+image_uploader: '[data-vh-id=chooser]'
+week_calendar_link: 'a[data-duration="week"]'
+week_days_list: '#messages-paginator .head .label'
+message_detail_p: 'p.with-popover'
+messages: 'div.entry.vertically-centered.no-separator.link'
+message_account_list: '[data-vh-id=paper] [data-vh-id=account]'
+message_detail: '[data-vh-id=paper]'
+message_list: '[data-vh-id=message]'
+messages_accounts: 'div.message-body > div.message-informations > div.message-accounts'
+messages_grid: 'div.period'
+messages_pending: "div.period.today > div.message > div.message-header > div.status > i.fa.fa-color-white.fa-question-circle"
+messages_published: "i[data-original-title='Published']"
+messages_rejected: "i[data-original-title='Rejected']"
+messages_group: 'div.summary'
+messages_today: 'div.period.today > div.message'
+message_status: '[data-mode=message_accounts_details]'
+month_calendar_link: 'a[data-duration="month"]'
+paper_div: 'div[data-vh-id="paper"]'
+paper_message_preview: 'div.entry-content.expand'
+pending_question_icon: 'i.fa.fa-color-white.fa-question-circle'
+pending_question_icon_old_ui: 'i.fa.fa-question-circle.fa-color-grey'
+popup_entry_line: 'div.popover-content .entry-inline-source'
+post_message_button: '.action-modal-root .btn-success'
+publisher_accounts_from_published_page: 'div.published-message .account'
+published_messages: 'div.published-message'
+reject_message_link: "a[data-vh-id='reject-message']"
+rejections_reasons_option: '[data-vh-id=rejections-history]'
+rejections_reasons_modal: '.modal-dialog'
+rejection_reason_textarea: "textarea[data-vh-id='value']"
+repost_message_modal: '.action-modal-root [data-panel-id=embedded-post]'
+republish_message: '[data-vh-id=republish-message]'
+scheduled_clock_icon: 'i.fa.fa-color-white.fa-clock-o'
+scheduled_clock_icon_old_ui: 'i.fa.fa-clock-o.fa-color-light-blue'
+show_message: '[data-vh-id=show-message]'
+timezone_dropdown: '#s2id__ a'
+timezone_dropdown_selections: '#select2-results-1 .select2-result-label'

@@ -1,0 +1,12 @@
+######################################################################
+# CENTRAL CONFIGURATION FILE
+#
+# Please keep each category sorted for fast reference
+#
+######################################################################
+
+continue: "a[class='btn btn-lg btn-primary']"
+email: '#user_session_login'
+organizations_menu: "#current-organization"
+password: '#password_field'
+submit_button: 'Sign in'

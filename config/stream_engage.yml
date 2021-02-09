@@ -1,0 +1,50 @@
+######################################################################
+#
+# stream engagement which involves commenting, reply, likes, favourites, sentiment change, tagging
+#
+######################################################################
+
+tag_set1:
+    - 'verify with tag1'
+    - 'verifying with tags'
+    - 'verifying with multi tag'
+    - 'multiple tags'
+    - 'multi tag search'
+    - 'definition of done'
+    - 'certifying the tag'
+    - 'verifying tag for facebook'
+    - 'verifying tag for twitter'
+    - 'verifying tag for instagram'
+    - 'verifying tag for tumblr'
+
+tag_set2:
+    - 'Verification and validation are independent procedures that are used together for checking that a product, service, or system meets requirements and specifications and that it fulfills its intended purpose'
+    - 'Validation. The assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers. Contrast with verification."'
+
+tag_set3:
+    - 'tag1'
+    - 'tag2'
+    - 'tag3'
+
+tag_setp1:
+ - 'verify with tag1 on public org'
+ - 'verifying with tags on public org'
+ - 'verifying with multi tag on public org'
+ - 'multiple tags on public org'
+ - 'multi tag search on public org'
+ - 'definition of done on public org'
+ - 'certifying the tag on public org'
+ - 'verifying tag for facebook on public org'
+ - 'verifying tag for twitter on public org'
+ - 'verifying tag for instagram on public org'
+ - 'verifying tag for tumblr on public org'
+
+tag_setp2:
+ - 'Public org : Verification and validation are independent procedures that are used together for checking that a product, service, or system meets requirements and specifications and that it fulfills its intended purpose'
+ - 'Public org : Validation. The assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers. Contrast with verification."'
+
+tag_setp3:
+ - 'verify with tag1 on public org'
+ - 'verifying with tags on public org'
+ - 'verifying with multi tag on public org'
+
